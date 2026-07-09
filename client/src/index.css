@@ -1,0 +1,135 @@
+/* === Global Styles for TravelSys === */
+:root {
+  --primary-color: #007bff; /* or #0d6efd (Bootstrap default) */
+}
+.btn-dark {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+.btn-dark:hover {
+  background-color: #0056b3 !important;
+}
+
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fb;
+  color: #212529;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0.8rem 1.5rem;
+}
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.navbar .btn {
+  border-radius: 20px;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  transform: translateY(-1px);
+  opacity: 0.9;
+}
+
+/* Cards */
+.card {
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.08);
+}
+.card-title {
+  font-weight: 600;
+}
+
+/* Tables */
+.table {
+  font-size: 0.92rem;
+}
+.table thead {
+  font-weight: 600;
+}
+.table td,
+.table th {
+  vertical-align: middle !important;
+}
+
+/* Headings */
+h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: #ccc;
+  letter-spacing: 0.3px;
+}
+footer small {
+  font-size: 0.85rem;
+}
+
+/* Inputs */
+.form-control {
+  border-radius: 6px;
+  border-color: #ccc;
+}
+.form-control:focus {
+  border-color: #212529;
+  box-shadow: 0 0 0 0.1rem rgba(33, 37, 41, 0.25);
+}
+
+/* Containers */
+.container {
+  max-width: 1200px;
+}
+
+/* Admin dashboard summary cards */
+.card.bg-primary,
+.card.bg-success,
+.card.bg-warning {
+  border: none;
+  border-radius: 10px;
+}
+/* === HERO SECTION === */
+.hero-section {
+  height: 85vh;
+  background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1500&q=80")
+    center center / cover no-repeat;
+  position: relative;
+}
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(2px);
+}
+.hero-section h1 {
+  letter-spacing: 0.5px;
+}
+.hero-section p {
+  color: #e0e0e0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.hero-section button {
+  border-radius: 25px;
+  padding: 10px 30px;
+  transition: all 0.2s ease-in-out;
+}
+.hero-section button:hover {
+  transform: scale(1.05);
+}
