@@ -1,4 +1,4 @@
-# Travel & Tourism Management System — Interview Prep Sheet
+# Travel & Tourism Management System — Detailed Summary
 
 A full-stack **MERN** (MongoDB, Express, React, Node.js) web application for browsing travel tour packages, booking them, and managing everything through an admin dashboard. This document is a complete, self-contained interview preparation guide covering architecture, workflow, every feature, every file, and the trade-offs/weaknesses you should be ready to discuss.
 
